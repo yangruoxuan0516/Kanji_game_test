@@ -6,7 +6,7 @@
     <!-- 房主视角显示二维码 -->
     <div v-if="isHost" class="mt-4">
       <p class="mb-1">📷 让其他人扫码加入：</p>
-      <qrcode-vue :value="fullUrl" :size="200" />
+      <qrcode-vue :value="fullUrl" :size="200" class="border border-gray-300 rounded-lg" />
       <p class="text-xs mt-1 text-gray-500">{{ fullUrl }}</p>
     </div>
 
